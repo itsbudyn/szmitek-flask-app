@@ -8,11 +8,11 @@
     <h1><a href="/../">Szmitek text generator</a></h1>
     <p> Załadowano <b>{{ wyrazy }}</b> wyrazów (<b>{{ wyr1 }}</b> przed i <b>{{ wyr2 }}</b> po). </p>
     <br><br><p>{{ test }}</p>
-    <form action = "http://localhost:5000/generate" method = "post">
+    <form action = "./generate" method = "post">
         <input type="submit" name="submit_button" value="Generuj">
     </form>
     <br>
-    <form action = "http://localhost:5000/about">
+    <form action = "./about">
         <input type="submit" value="O stronie">
     </form>
   </body>
