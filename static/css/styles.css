@@ -1,0 +1,54 @@
+html{
+    min-height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    color: white;
+    background-image: linear-gradient(to top right, blue,rgb(0, 153, 255));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+a {
+    color:aliceblue;
+}
+.button {
+    font-size: 48px;
+    background-color: white;
+    border-radius: 4px;
+    transition-duration: 0.6s;
+    width: 30%;
+}
+.btn_generate {
+    border: 2px solid red;
+    background-color: rgb(255, 144, 144);
+}
+.btn_generate:hover{
+    background-color: red;
+    color:aliceblue;
+}
+.btn_about{
+    border: 2px solid blue;
+    background-color: rgb(144,144,255);
+}
+.btn_about:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.44), 0 17px 50px 0 rgba(0,0,0,0.39)
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.github{
+    font-size: 28px;
+    color:rgb(0, 174, 255);
+}
+.about{
+    font-size: 24px;
+}

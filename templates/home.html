@@ -2,18 +2,19 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
     <title>Szmitek text generator</title>
   </head>
   <body>
     <h1><a href="/../">Szmitek text generator</a></h1>
     <p> Załadowano <b>{{ wyrazy }}</b> wyrazów (<b>{{ wyr1 }}</b> przed i <b>{{ wyr2 }}</b> po). </p>
-    <br><br><p>{{ test }}</p>
-    <form action = "./generate" method = "post">
-        <input type="submit" name="submit_button" value="Generuj">
+    <br><br><p class="szmitek">{{ test }}</p>
+    <form action = "./generate" method = "post" >
+        <input type="submit" name="submit_button" value="Generuj" class = "button btn_generate">
     </form>
     <br>
     <form action = "./about">
-        <input type="submit" value="O stronie">
+        <input type="submit" value="O stronie" class="button btn_about">
     </form>
   </body>
 </html>
