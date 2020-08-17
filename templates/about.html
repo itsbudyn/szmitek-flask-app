@@ -9,14 +9,17 @@
   <body>
     <h1><a href="/../">Szmitek text generator</a></h1>
     <p class="about"><br>Strona generuje losowy tekst Szmitka.
-    <br>Aplikacja posiada dwie listy wyrazów, z obu list przy każdym naciśnięciu "Generuj", z każdej zostanie wylosowany 1 wyraz, znajdujący się przed i po "w". W sumie to tyle. lol
+    <br>Aplikacja posiada dwie listy wyrazów, z których przy każdym naciśnięciu "Generuj", z każdej zostanie wylosowany 1 wyraz, znajdujący się przed i po "w". W sumie to tyle.
     <br><br>Robione w <a href="https://www.python.org">Pythonie</a> (<a href="https://palletsprojects.com/p/flask/">flask</a>). Specjalne podziękowania dla losowych ludzi którzy pod filmami wrzucali timestampy z tekstami.</p>
     <br><p>by: itsbudyn</p>
-    <br><br>
-    <p>W listach znajduje się razem <b>{{ wyrazy }}</b> wyrazów, z czego lista A zawiera <b>{{ wyr1 }}</b> a lista B: <b>{{ wyr2 }}</b>. Możliwych kombinacji: <b>{{ komb }}</b> </p>
-    <br><br>
-    <form action="https://github.com/itsbudyn/szmitek-flask-app">
-      <input type="submit" value="GitHub" class="button btn_github"/>
+    <br>
+
+    <form action = "/" style="float:left;padding-left: 1%" >
+      <input type="submit" value="Powrót" class = "button btn_generate">
+    </form>
+
+    <form action="https://github.com/itsbudyn/szmitek-flask-app" style="float:left">
+      <input type="submit" value="GitHub" class="button btn_about"/>
     </form>
   </body>
 </html>
