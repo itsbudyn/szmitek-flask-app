@@ -6,7 +6,7 @@ body {
     height: 100%;
     margin: 0;
     color: white;
-    background-color: #020202;
+    background-color: #000000;
     background: linear-gradient(to right bottom, #000000, #1c0713, #2a0d24, #34113a, #351a56, #471758, #581157, #690755, #760330, #6e2211, #5b3600, #414400);
     background-attachment: fixed;
 }
