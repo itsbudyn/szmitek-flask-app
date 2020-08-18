@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
     <meta charset="utf-8">
     <link rel="icon" href="https://i.imgur.com/yhVEjDp.png">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
     <title>Szmitek text generator</title>
   </head>
+
   <body>
     <h1><a href="/../">Szmitek text generator</a></h1>
     <p class="about"><br>Strona generuje losowy tekst Szmitka.
     <br>Aplikacja posiada dwie listy wyrazów, z których przy każdym naciśnięciu "Generuj", z każdej zostanie wylosowany 1 wyraz, znajdujący się przed i po "w". W sumie to tyle.
-    <br><br>Robione w <a href="https://www.python.org">Pythonie</a> (<a href="https://palletsprojects.com/p/flask/">flask</a>). Specjalne podziękowania dla losowych ludzi którzy pod filmami wrzucali timestampy z tekstami.</p>
+    <br><br>Działa na <a href="https://www.python.org">Pythonie</a> (<a href="https://palletsprojects.com/p/flask/">Flask</a>) i hostowana obecnie na <a href="https://pythonanywhere.com">PythonAnywhere</a>.
+    <br>Specjalne podziękowania dla losowych ludzi którzy pod filmami wrzucali timestampy z tekstami.</p>
     <br><p>by: itsbudyn</p>
-    <br>
 
-    <form action = "/" style="float:left;padding-left: 1%" >
+    <form action = "/" style="padding-left: 1%" >
       <input type="submit" value="Powrót" class = "button btn_generate">
     </form>
 
-    <form action="https://github.com/itsbudyn/szmitek-flask-app" style="float:left">
+    <form action="https://github.com/itsbudyn/szmitek-flask-app">
       <input type="submit" value="GitHub" class="button btn_about"/>
     </form>
   </body>
+
+  <footer>
+    Strona nie przechowuje plików cookies, ani nie gromadzi danych użytkownika.
+  </footer>
+
 </html>

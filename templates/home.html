@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  
   <head>
     <meta charset="utf-8">
     <link rel="icon" href="https://i.imgur.com/yhVEjDp.png">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
     <title>Szmitek text generator</title>
   </head>
+
   <body>
-    <h1><a href="/../">Szmitek text generator</a></h1>
+    <h1>Szmitek text generator</h1>
     <marquee>Szczęść Boże, ja litr wina mszalnego poproszę, trzy hostie, nie cztery, cztery i proszę o modlitwę za mnie. Dziękuję. Bóg, Bóg, Bóg święty i Bóg. Bóg, Bóg święty i Bóg. Bóg święty. Bóg święty i Bóg. Bóg święty i Bóg. Raz, dwa trzy święty. Bóg. AMEEEEN Bóg, pomodliłem się i Bóg. Piję wino, robię cud, wiara w Bóg. Ksiądz robi mszę, ksiądz robi mszę, wiara w Bóg. Wiara w Bóg waaaah Pokój. Dym z trybularza, dusza czysta. Krew Jezusa, krew Jezusa, krew Jezusa, krew Jezusa Chrystusa w moich wielkich płucach. Życie Święte. WIARAAAAA Wiara, wiara, wiara, wiara, wiara no i Bóg. Wiara, wiara, wiara, wiara, wiara no i Bóg. Wiara, wiara, wiara, wiara, miłosierny Bóg. Wiara, wiara, wiara, wiara, święty nasz Bóg. Wiara, miłość, Wiara, miłość. Dawaj mi psalm, psalm. Anioł lata mi tu, latam sobie z nim. Latam sobie z nim. Zbawie, zbawie-nie. Pismo Święte, dawaj mi Pismo Święte. Pismo Święte, serce. Whaa Bóg, pomodliłem się, duszę zbawiłem i jeszcze zmartwych-wstalem. Zbawie, zbawie-nie. PRAWDĄĄĄ, prawdą jest Bóg. Prawdą, prawdą, prawdą, prawdą, prawdą jest Bóg. Bóg to prawda, prawda, prawda to Bóg. Chrystus! Prawdą jest Bóg. Bóg święty. Pismo Święte gdzie jest? Wiara. A Pismo Święte gdzie jest? Pismo Święte, gdzie ono się znajduje? Pismo Święte, gdzie ono się znajduje? Boże Święty, pomodliłem się, duszę zbawiłem i jeszcze zmartwych-wstałem. Bóg, Bóg, święty cud, Bóg, Bóg, WIARAAAA.</marquee>
     <p> Załadowano <b>{{ wyrazy }}</b> wyrazów (<b>{{ wyr1 }}</b> + <b>{{ wyr2 }}</b>). <br>Możliwych kombinacji: <b>{{ komb }}</b> </p>
     <br><br><p class="szmitek">{{ test }}</p>
     
-    <form action = "./generate" method="post" style="float: left; padding-left: 1%">
+    <form action = "./generate" method="post" style="padding-left: 1%">
         <input type="submit" name="submit_button" value="Generuj" class = "button btn_generate">
     </form>
 
-    <form action = "./about"  style="float: left">
+    <form action = "./about">
         <input type="submit" value="O stronie" class="button btn_about">
     </form>
 
     <br><br><br><p>Wygenerowano tekst już <b>{{ total }}</b> razy!</p>
   </body>
+
+  <footer>
+    Strona nie przechowuje plików cookies, ani nie gromadzi danych użytkownika.
+  </footer>
+
 </html>
