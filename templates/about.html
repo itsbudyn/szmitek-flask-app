@@ -10,23 +10,27 @@
 
   <body>
     <h1><a href="/../">Szmitek text generator</a></h1>
-    <p class="about"><br>Strona generuje losowy tekst Szmitka.
-    <br>Aplikacja posiada dwie listy wyrazów, z których przy każdym naciśnięciu "Generuj", z każdej zostanie wylosowany 1 wyraz, znajdujący się przed i po "w". W sumie to tyle.
-    <br><br>Działa na <a href="https://www.python.org">Pythonie</a> (<a href="https://palletsprojects.com/p/flask/">Flask</a>) i hostowana obecnie na <a href="https://pythonanywhere.com">PythonAnywhere</a>.
-    <br>Specjalne podziękowania dla losowych ludzi którzy pod filmami wrzucali timestampy z tekstami.</p>
-    <br><p>by: itsbudyn</p>
+    <div class="container">
+      Strona generuje losowy tekst, złożony z innych tekstów wypowiedzianych przez Szmitka. Otrzymany produkt jest całkowicie losowy.
+      <br><br><br>Aplikacja posiada dwie listy wyrazów, z których losuje się po jednym wyrazie. Napisane w <a href="https://www.python.org">Pythonie</a>, serwer złożony w (<a href="https://palletsprojects.com/p/flask/">Flasku</a>) i hostowany obecnie na <a href="https://pythonanywhere.com">PythonAnywhere</a>.
+      <br><br><br>Specjalne podziękowania dla losowych ludzi którzy pod filmami wrzucali timestampy z tekstami.
+      <br><br><br>Zrobione aby poćwiczyć sobie Pythona i HTML/CSS.<br><br>
+      
+      <form action = "/" style="float: left" >
+        <input type="submit" value="Powrót" class = "button btn_generate">
+      </form>
 
-    <form action = "/" style="padding-left: 1%" >
-      <input type="submit" value="Powrót" class = "button btn_generate">
-    </form>
+      <form action="https://github.com/itsbudyn/szmitek-flask-app" style="float: right">
+        <input type="submit" value="GitHub" class="button btn_about"/>
+      </form>
 
-    <form action="https://github.com/itsbudyn/szmitek-flask-app">
-      <input type="submit" value="GitHub" class="button btn_about"/>
-    </form>
+      <br><p>by: itsbudyn</p>
+    </div>
   </body>
 
   <footer>
-    Strona nie przechowuje plików cookies i nie gromadzi danych użytkownika.
+    One More Time update.<br>
+    Strona nie przechowuje plików cookies.
   </footer>
 
 </html>
