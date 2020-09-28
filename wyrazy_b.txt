@@ -50,6 +50,7 @@ kasku
 kelnerce
 kiblu
 kielichu
+kieszeni
 klasztorze
 klubie
 kolanie
@@ -68,6 +69,7 @@ kroplówce
 krzakach
 kutasie
 legginsach
+lesie
 lodówce
 lokomotywie
 majonezie
@@ -155,6 +157,7 @@ truskawkach
 uchu
 uszach
 warsztacie
+warzywniaku
 worku
 wózku
 wykopie
